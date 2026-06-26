@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$100 GTM — The Plan</title>
+    <style>
+        @media print {
+            body { font-size: 11pt; }
+            .no-print { display: none; }
+            .page-break { page-break-before: always; }
+            table { page-break-inside: avoid; }
+            h2 { page-break-after: avoid; }
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, sans-serif;
+            color: #1a1a1a;
+            line-height: 1.7;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 48px 32px;
+            background: #fff;
+        }
+
+        .print-btn {
+            position: fixed;
+            top: 24px;
+            right: 24px;
+            padding: 12px 28px;
+            background: #0a0a0b;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: inherit;
+        }
+        .print-btn:hover { background: #333; }
+
+        h1 {
+            font-size: 28pt;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 14pt;
+            color: #666;
+            margin-bottom: 40px;
+            padding-bottom: 24px;
+            border-bottom: 2px solid #111;
+        }
+
+        h2 {
+            font-size: 16pt;
+            font-weight: 700;
+            margin: 40px 0 16px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h3 {
+            font-size: 12pt;
+            font-weight: 700;
+            margin: 24px 0 8px;
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 12px;
+            color: #333;
+        }
+
+        strong { color: #111; }
+
+        ul, ol {
+            margin: 0 0 16px 20px;
+            color: #333;
+        }
+        li { margin-bottom: 6px; }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0 24px;
+            font-size: 10pt;
+        }
+        th {
+            text-align: left;
+            background: #f5f5f5;
+            padding: 10px 14px;
+            font-weight: 700;
+            border-bottom: 2px solid #ddd;
+        }
+        td {
+            padding: 10px 14px;
+            border-bottom: 1px solid #eee;
+            vertical-align: top;
+        }
+
+        .callout {
+            background: #f7f7f7;
+            border-left: 3px solid #111;
+            padding: 16px 20px;
+            margin: 20px 0;
+            font-size: 10.5pt;
+        }
+        .callout p { margin-bottom: 0; color: #444; }
+
+        .section-label {
+            display: inline-block;
+            background: #111;
+            color: #fff;
+            padding: 3px 12px;
+            border-radius: 4px;
+            font-size: 9pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin: 16px 0;
+        }
+        .two-col div {
+            background: #fafafa;
+            padding: 16px;
+            border-radius: 6px;
+            border: 1px solid #eee;
+        }
+        .two-col h4 {
+            font-size: 10pt;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .two-col ul { font-size: 10pt; margin-left: 16px; }
+
+        .flow {
+            display: flex;
+            gap: 12px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .flow-step {
+            flex: 1;
+            min-width: 140px;
+            background: #f7f7f7;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 14px;
+            text-align: center;
+        }
+        .flow-step .num {
+            font-size: 20pt;
+            font-weight: 800;
+            color: #111;
+        }
+        .flow-step .label {
+            font-size: 9pt;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #666;
+            margin-top: 4px;
+        }
+
+        .footer-note {
+            margin-top: 48px;
+            padding-top: 16px;
+            border-top: 1px solid #ddd;
+            font-size: 9pt;
+            color: #999;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="print-btn no-print" onclick="window.print()">Save as PDF</button>
+
+    <h1>$100 GTM</h1>
+    <div class="subtitle">
+        I pick GTM problems that fascinate me. Test them for under $100. Publish everything.<br>
+        <strong>Aswath Jayavel</strong> — Operating Plan
+    </div>
+
+    <!-- ============================================ -->
+    <!-- THE CONCEPT                                   -->
+    <!-- ============================================ -->
+
+    <span class="section-label">The Concept</span>
+    <h2>What This Is</h2>
+    <p>
+        A system for building a public track record as a GTM operator. Instead of writing opinions
+        about other companies' growth, I run real experiments with my own money, publish the results
+        with full transparency, and let the body of work compound into a thesis — and a brand.
+    </p>
+
+    <div class="callout">
+        <p><strong>The positioning:</strong> Most GTM advice is theory. Mine costs me money. Every experiment
+        is a $100 bet on my own judgment, published with full data — wins and failures. The constraint
+        forces creativity over budget and proves that judgment matters more than spend.</p>
+    </div>
+
+    <div class="flow">
+        <div class="flow-step"><div class="num">01</div><div class="label">Spot</div></div>
+        <div class="flow-step"><div class="num">02</div><div class="label">Diagnose</div></div>
+        <div class="flow-step"><div class="num">03</div><div class="label">Test ($100)</div></div>
+        <div class="flow-step"><div class="num">04</div><div class="label">Publish</div></div>
+    </div>
+
+    <p>
+        <strong>The unit:</strong> One company. One growth problem. Under $100 of real spend. Full results published — the diagnosis,
+        hypothesis, what I built, what happened, and what I now believe about GTM because of it.
+    </p>
+    <p>
+        <strong>The cadence:</strong> One full experiment every 2 weeks. Between drops, 2-3 short LinkedIn observations per week to keep the feed alive.
+    </p>
+    <p>
+        <strong>The compounding asset:</strong> Each experiment is a data point. The thesis — my accumulated, first-person model of what actually moves GTM — is the line I draw through them. After 10-15 experiments, the thesis itself becomes the product.
+    </p>
+
+    <!-- ============================================ -->
+    <!-- WHERE TO FIND PROBLEMS                        -->
+    <!-- ============================================ -->
+
+    <div class="page-break"></div>
+    <span class="section-label">Finding Problems</span>
+    <h2>Where to Find the Right GTM Problems</h2>
+
+    <h3>Funding Signals (companies with money + GTM gaps)</h3>
+    <table>
+        <tr><th>Source</th><th>What to Look For</th></tr>
+        <tr><td><strong>Crunchbase / PitchBook</strong></td><td>Set daily alerts for Seed and Series A raises in your target vertical. A company that just raised has cash, a growth mandate, and usually no GTM hire yet.</td></tr>
+        <tr><td><strong>VC Twitter/X lists</strong></td><td>Follow VCs who announce portfolio deals. You see the money in real time, before the press.</td></tr>
+        <tr><td><strong>Newsletters</strong></td><td>The Information, Newcomer, StrictlyVC, Crunchbase Daily — curated deal flow delivered to your inbox.</td></tr>
+    </table>
+
+    <h3>Product-Rich, Distribution-Poor Signals</h3>
+    <table>
+        <tr><th>Source</th><th>What to Look For</th></tr>
+        <tr><td><strong>Product Hunt</strong></td><td>New launches with strong upvotes but weak websites. Great product, bad positioning = your target.</td></tr>
+        <tr><td><strong>G2 / Capterra</strong></td><td>High review scores + low review count. Product people love but nobody knows about.</td></tr>
+        <tr><td><strong>YC Launches</strong></td><td>ycombinator.com/launches — fresh companies, often pre-GTM. Dozens per batch.</td></tr>
+        <tr><td><strong>IndieHackers</strong></td><td>Founders posting revenue numbers with stalled growth. They literally tell you the problem.</td></tr>
+    </table>
+
+    <h3>Founders Raising Their Hand</h3>
+    <table>
+        <tr><th>Source</th><th>What to Look For</th></tr>
+        <tr><td><strong>Reddit</strong></td><td>r/SaaS, r/startups, r/entrepreneur — search "growth," "positioning," "landing page feedback," "first customers."</td></tr>
+        <tr><td><strong>Twitter/X search</strong></td><td>"struggling with distribution," "great product no users," "how to position" — founders telling you their pain.</td></tr>
+        <tr><td><strong>LinkedIn</strong></td><td>Founders posting about GTM struggles. Reply publicly AND DM privately.</td></tr>
+        <tr><td><strong>Job boards</strong></td><td>Wellfound, LinkedIn Jobs — companies posting for "Head of Growth" or "GTM Lead" = acknowledged gap + budget. Your experiment becomes a live audition.</td></tr>
+    </table>
+
+    <h3>Communities Where Problems Surface</h3>
+    <table>
+        <tr><th>Community</th><th>Why</th></tr>
+        <tr><td>Lenny's Newsletter Slack</td><td>PMs and growth people discussing real problems</td></tr>
+        <tr><td>Exit Five</td><td>B2B marketing community (Dave Gerhardt)</td></tr>
+        <tr><td>Pavilion (fmr. Revenue Collective)</td><td>Revenue leaders, GTM conversations</td></tr>
+        <tr><td>OnDeck / South Park Commons</td><td>Founder networks, warm intros possible</td></tr>
+        <tr><td>GrowthHackers.com</td><td>Growth-focused case studies and discussion</td></tr>
+    </table>
+
+    <div class="callout">
+        <p><strong>Qualifying filter:</strong> Before committing, answer: (1) Is there a visible GTM gap I can diagnose from the outside?
+        (2) Can I run a meaningful test for under $100 in under 2 weeks? (3) Is this problem interesting enough that I'd spend my own money on it?
+        If all three are yes, it's a go.</p>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- DISTRIBUTION                                  -->
+    <!-- ============================================ -->
+
+    <div class="page-break"></div>
+    <span class="section-label">Distribution</span>
+    <h2>Where to Post (Channel Strategy)</h2>
+
+    <p>The website is the home base — the proof lives there. Distribution happens on these channels. Each serves a different purpose.</p>
+
+    <h3>Tier 1 — Every Experiment (always post here)</h3>
+    <table>
+        <tr><th>Channel</th><th>Format</th><th>Why It Works</th></tr>
+        <tr>
+            <td><strong>LinkedIn</strong></td>
+            <td>Native carousel or text post. Never link-only (algorithm kills links). Lead with the diagnosis, link in first comment.</td>
+            <td>Where founders, growth leads, and hiring managers live. Tag the company + founder. They get notified.</td>
+        </tr>
+        <tr>
+            <td><strong>Twitter/X</strong></td>
+            <td>Thread: tweet 1 = hook (diagnosis), tweets 2-4 = experiment, tweet 5 = result, tweet 6 = link + CTA.</td>
+            <td>Founders and VCs live here. Threads get saved and shared. Tag the company handle.</td>
+        </tr>
+        <tr>
+            <td><strong>YouTube</strong></td>
+            <td>8-12 min video. Screen-record the diagnosis, show artifacts, reveal data. Title: "[Company]'s GTM Problem — I Spent $X Testing a Fix"</td>
+            <td>Compounds via search. Founders google themselves and find you. Evergreen asset.</td>
+        </tr>
+    </table>
+
+    <h3>Tier 2 — Community Posts (pick 1-2 per drop, rotate)</h3>
+    <table>
+        <tr><th>Community</th><th>Format</th></tr>
+        <tr><td><strong>r/SaaS</strong></td><td>"I spent $X testing [company]'s GTM — here's what I found." Include enough substance to stand alone.</td></tr>
+        <tr><td><strong>r/startups</strong></td><td>Same format. Broader but high-quality audience.</td></tr>
+        <tr><td><strong>IndieHackers</strong></td><td>Post as a detailed article. Founders actively building.</td></tr>
+        <tr><td><strong>Exit Five / Lenny's Slack</strong></td><td>Share in relevant channels. Growth professionals who influence hiring.</td></tr>
+        <tr><td><strong>GrowthHackers.com</strong></td><td>Post as a case study. SEO value.</td></tr>
+        <tr><td><strong>Hacker News</strong></td><td>Only when you have strong data. HN rewards substance — massive amplification if it hits.</td></tr>
+    </table>
+
+    <h3>Tier 3 — Direct Outreach (the conversion channel)</h3>
+    <table>
+        <tr><th>Who</th><th>How</th></tr>
+        <tr><td><strong>The founder</strong></td><td>DM on LinkedIn or email. 3 sentences: what you found, the key result, link. "No agenda, thought you'd want to see it."</td></tr>
+        <tr><td><strong>Growth/marketing lead</strong></td><td>Same message. They're the one who'll champion hiring you internally.</td></tr>
+        <tr><td><strong>VCs who invested</strong></td><td>They care about portfolio GTM. They forward useful things to founders. Find on Crunchbase, message on Twitter/LinkedIn.</td></tr>
+    </table>
+
+    <!-- ============================================ -->
+    <!-- THE RHYTHM                                    -->
+    <!-- ============================================ -->
+
+    <div class="page-break"></div>
+    <span class="section-label">Operating Rhythm</span>
+    <h2>The 2-Week Cycle</h2>
+
+    <table>
+        <tr><th>Day</th><th>Action</th></tr>
+        <tr><td><strong>Week 1, Days 1-3</strong></td><td>Source scan. Find the company. Qualify it. Write "why this problem interests me."</td></tr>
+        <tr><td><strong>Week 1, Days 3-5</strong></td><td>Diagnose. Walk the growth chain. Lock the hypothesis. Define budget + success metric.</td></tr>
+        <tr><td><strong>Week 2, Days 1-5</strong></td><td>Build + test. Create artifacts. Deploy the spend. Capture data daily.</td></tr>
+        <tr><td><strong>Week 2, Days 5-7</strong></td><td>Package. Write the full experiment on the site. Prepare all distribution assets.</td></tr>
+        <tr><td><strong>Drop Day (Tue/Wed)</strong></td><td>Launch. LinkedIn 8am → Twitter 10am → YouTube within 48hr → 1 community post. DM founder same day.</td></tr>
+        <tr><td><strong>Between drops</strong></td><td>2-3 short LinkedIn posts per week. Quick GTM observations. Community engagement. Spot next target.</td></tr>
+    </table>
+
+    <!-- ============================================ -->
+    <!-- MONETIZATION                                  -->
+    <!-- ============================================ -->
+
+    <span class="section-label">Monetization Path</span>
+    <h2>How This Becomes Revenue</h2>
+
+    <div class="two-col">
+        <div>
+            <h4>Stage 1: Proof (months 1-3)</h4>
+            <ul>
+                <li>Run 6-8 experiments</li>
+                <li>Build the thesis with real data</li>
+                <li>Goal: body of evidence, not revenue</li>
+                <li>Revenue: $0 (investment phase)</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Stage 2: Paid Sprints (months 3-6)</h4>
+            <ul>
+                <li>Productize: "30-day growth sprint"</li>
+                <li>Portfolio justifies the rate</li>
+                <li>Land via experiments → convert to paid pilots</li>
+                <li>Revenue: per-sprint pricing</li>
+            </ul>
+        </div>
+    </div>
+    <div class="two-col">
+        <div>
+            <h4>Stage 3: Retainers (months 6-12)</h4>
+            <ul>
+                <li>Sprints expand into fractional GTM lead roles</li>
+                <li>Monthly retainer or equity-based deals</li>
+                <li>Inbound from people who've watched the experiments</li>
+                <li>Revenue: recurring monthly</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Stage 4: Leverage (12+ months)</h4>
+            <ul>
+                <li>The thesis itself is the product</li>
+                <li>Advisory, paid newsletter, course, speaking</li>
+                <li>Performance/equity deals on GTM outcomes</li>
+                <li>Revenue: leveraged + recurring</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- CONVERSION                                    -->
+    <!-- ============================================ -->
+
+    <span class="section-label">Conversion</span>
+    <h2>When Someone Responds</h2>
+
+    <h3>If the target company reaches out:</h3>
+    <ol>
+        <li>Respond within 2 hours</li>
+        <li>Offer a free 30-min call to walk through the full diagnosis</li>
+        <li>On the call: present the 30/60/90 plan from your writeup</li>
+        <li>Propose a paid pilot: "30-day growth sprint — I execute the playbook"</li>
+        <li>If they want ongoing: fractional / retainer / full-time conversation</li>
+    </ol>
+
+    <h3>If a different company reaches out (saw your work):</h3>
+    <ol>
+        <li>They're already pre-sold on your approach</li>
+        <li>"I'll do the same thing for your company. Here's how the sprint works."</li>
+        <li>The portfolio is the pitch — no deck needed</li>
+    </ol>
+
+    <div class="callout">
+        <p><strong>The rule:</strong> Never ask for a job. Present the work. Offer the sprint. Let the sprint audition you for the bigger role. Land-and-expand applied to your own career.</p>
+    </div>
+
+    <div class="footer-note">
+        $100 GTM — Aswath Jayavel<br>
+        Opinions are free. These cost me money.
+    </div>
+
+</body>
+</html>
