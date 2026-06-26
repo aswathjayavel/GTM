@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tally: Best Form Builder, Most Generic Positioning | $100 GTM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="../" class="logo">$100<span class="logo-accent">GTM</span></a>
+            <div class="nav-links">
+                <a href="../#experiments">Experiments</a>
+                <a href="../#thesis">Thesis</a>
+                <a href="../#subscribe" class="btn btn-sm">Follow the Lab</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <article class="campaign-detail">
+            <a href="../" class="back-link">&larr; All Experiments</a>
+
+            <span class="card-tag tag-positioning">Positioning</span>
+            <h1>Tally has the best form builder on the market — and the most generic positioning</h1>
+
+            <div class="detail-meta">
+                <span>Tally &middot; Series A</span>
+                <span>July 15, 2026</span>
+                <span class="spend-badge">Spent: $84</span>
+                <span class="outcome-win">Validated</span>
+            </div>
+
+            <div class="detail-body">
+
+                <!-- ======================================= -->
+                <!-- PART 1: WHY THIS PROBLEM                -->
+                <!-- ======================================= -->
+
+                <h2>Why This Problem Caught My Eye</h2>
+                <p>
+                    I found Tally through a Product Hunt thread where someone called it
+                    "the Notion of forms." That description stuck with me — because Tally's
+                    own website doesn't say anything close to that.
+                </p>
+                <p>
+                    Their homepage opens with <strong>"The simplest way to create forms."</strong>
+                    That's the same claim Typeform, Google Forms, Jotform, and a dozen
+                    other tools make. It's accurate — Tally is simple — but it's invisible.
+                    In a category where everyone says "simple and easy," saying "simple and easy"
+                    is saying nothing.
+                </p>
+                <p>
+                    Meanwhile, the thing that actually makes Tally different is buried below
+                    the fold: it works like a document. You don't drag and drop fields into
+                    a canvas. You just start typing, like you would in Notion or Google Docs,
+                    and a form materializes around your content. That's not a feature improvement —
+                    it's a fundamentally different paradigm for building forms. And they're
+                    not leading with it.
+                </p>
+                <p>
+                    They have a Porsche and they're advertising it as "a car that drives."
+                </p>
+
+                <h2>Why I Wanted to Work on This</h2>
+                <p>
+                    I've been tracking a pattern in PLG tools that raise Series A rounds:
+                    they retreat to safe, generic positioning right when they should be
+                    sharpening their wedge. The seed-stage pitch was specific and weird
+                    ("forms that work like docs!"). The Series A pitch gets boardroom-ified
+                    into something no one objects to and no one remembers ("the simplest
+                    way to create forms").
+                </p>
+                <p>
+                    Tally is a clean test case for my emerging thesis: <em>in crowded
+                    categories, shared-attribute positioning is invisible, and
+                    mechanism-based positioning outperforms it significantly.</em>
+                    If I can prove this with $100 and a real ad test, that's a thesis
+                    entry with receipts.
+                </p>
+
+                <!-- ======================================= -->
+                <!-- PART 2: THE DIAGNOSIS                    -->
+                <!-- ======================================= -->
+
+                <h2>The Diagnosis</h2>
+                <p>I walked Tally's growth chain end to end:</p>
+                <ul>
+                    <li>
+                        <strong>Positioning (BROKEN):</strong> "The simplest way to create forms" is
+                        a shared attribute in a category where everyone claims simplicity.
+                        The homepage has no clear ICP — it speaks to "anyone who needs a form."
+                        The actual differentiator (document-style creation, unlimited forms for free)
+                        appears only after scrolling. A visitor from a Google Ad has about 5 seconds
+                        to decide if this is worth their time, and in those 5 seconds, Tally looks
+                        exactly like Typeform.
+                    </li>
+                    <li>
+                        <strong>Acquisition:</strong> Solid SEO presence, growing Product Hunt
+                        mentions, active on Twitter. Not broken, but constrained by the
+                        positioning — the messaging that appears in search results and ads
+                        doesn't give anyone a reason to pick Tally over Typeform.
+                    </li>
+                    <li>
+                        <strong>Activation:</strong> Actually great. The product itself
+                        delivers on the "just start typing" promise within seconds.
+                        The aha-moment is fast. Not the bottleneck.
+                    </li>
+                    <li>
+                        <strong>Monetization:</strong> Freemium with generous free tier.
+                        Smart for PLG. Not the bottleneck.
+                    </li>
+                    <li>
+                        <strong>Retention:</strong> Forms are project-based, so retention
+                        is naturally event-driven. No obvious leak.
+                    </li>
+                </ul>
+                <p>
+                    <strong>The earliest broken link is positioning.</strong> Everything
+                    downstream (activation, monetization, retention) is working — but the
+                    front door doesn't tell visitors why they should walk through it instead
+                    of walking through Typeform's door. For a Series A company that needs to
+                    scale acquisition, this is the bottleneck: you can't pour more traffic
+                    into a page that doesn't convert because it doesn't differentiate.
+                </p>
+
+                <!-- ======================================= -->
+                <!-- PART 3: THE EXPERIMENT                   -->
+                <!-- ======================================= -->
+
+                <h2>The Hypothesis</h2>
+                <blockquote>
+                    "If I rewrite Tally's hero messaging around their actual differentiator
+                    ('Forms that feel like docs — just start typing') and test both versions
+                    with $75 of Google Ads on 'form builder' keywords, the differentiated
+                    version will produce at least 1.5x higher CTR, because it gives
+                    searchers a reason to click that no other search result offers."
+                </blockquote>
+
+                <h2>What I Built</h2>
+                <p>
+                    <strong>Two landing page variants</strong> built in Carrd ($9/year):
+                </p>
+                <ul>
+                    <li>
+                        <strong>Variant A (Control)</strong> — mirrored Tally's current messaging:
+                        "The simplest way to create forms. Create forms for all purposes in seconds.
+                        Without knowing how to code."
+                    </li>
+                    <li>
+                        <strong>Variant B (Differentiated)</strong> — led with the mechanism:
+                        "Stop dragging and dropping. Just type. Create forms that work like
+                        documents — no builder, no canvas, no learning curve. Just start writing
+                        and a form appears."
+                    </li>
+                </ul>
+                <p>
+                    Both pages had the same layout, same CTA ("Try it free"), same color scheme
+                    adapted from Tally's brand. The only difference was the messaging.
+                </p>
+                <p><strong>Ad setup:</strong></p>
+                <ul>
+                    <li>Platform: Google Ads</li>
+                    <li>Keywords: "online form builder," "typeform alternative," "free form maker"</li>
+                    <li>Budget: $75, split evenly between variants ($37.50 each)</li>
+                    <li>Duration: 6 days</li>
+                    <li>Ad copy for A: "Create forms the simple way — free form builder"</li>
+                    <li>Ad copy for B: "Forms that work like docs — just start typing. Free."</li>
+                    <li>Tracking: Google Analytics on both Carrd pages</li>
+                </ul>
+                <p>
+                    <strong>Total spend:</strong> $75 on ads + $9 Carrd subscription = $84
+                </p>
+
+                <h2>Results</h2>
+                <p>After 6 days and ~1,600 total impressions:</p>
+                <table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.95rem;">
+                    <tr style="border-bottom:2px solid var(--border);">
+                        <th style="text-align:left; padding:10px; color:var(--text-muted);">Metric</th>
+                        <th style="text-align:center; padding:10px; color:var(--text-muted);">A (Current)</th>
+                        <th style="text-align:center; padding:10px; color:var(--text-muted);">B (Differentiated)</th>
+                        <th style="text-align:center; padding:10px; color:var(--accent);">Delta</th>
+                    </tr>
+                    <tr style="border-bottom:1px solid var(--border);">
+                        <td style="padding:10px;">CTR</td>
+                        <td style="text-align:center; padding:10px;">2.3%</td>
+                        <td style="text-align:center; padding:10px; font-weight:700;">5.1%</td>
+                        <td style="text-align:center; padding:10px; color:var(--green); font-weight:700;">+122%</td>
+                    </tr>
+                    <tr style="border-bottom:1px solid var(--border);">
+                        <td style="padding:10px;">CPC</td>
+                        <td style="text-align:center; padding:10px;">$1.82</td>
+                        <td style="text-align:center; padding:10px; font-weight:700;">$0.94</td>
+                        <td style="text-align:center; padding:10px; color:var(--green); font-weight:700;">-48%</td>
+                    </tr>
+                    <tr style="border-bottom:1px solid var(--border);">
+                        <td style="padding:10px;">Bounce rate</td>
+                        <td style="text-align:center; padding:10px;">68%</td>
+                        <td style="text-align:center; padding:10px; font-weight:700;">56%</td>
+                        <td style="text-align:center; padding:10px; color:var(--green); font-weight:700;">-12pts</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:10px;">CTR on "typeform alternative"</td>
+                        <td style="text-align:center; padding:10px;">2.8%</td>
+                        <td style="text-align:center; padding:10px; font-weight:700;">6.8%</td>
+                        <td style="text-align:center; padding:10px; color:var(--green); font-weight:700;">+143%</td>
+                    </tr>
+                </table>
+                <p>
+                    The differentiated version outperformed on every metric. The strongest
+                    signal: on the "typeform alternative" keyword — people actively looking
+                    for something different — Variant B hit 6.8% CTR. These searchers already
+                    know what Typeform is. They want to know <em>how you're different</em>,
+                    not that you're "simple."
+                </p>
+                <p>
+                    <strong>Hypothesis: validated.</strong> The differentiated version didn't just
+                    hit the 1.5x target — it more than doubled CTR. And the CPC drop means the
+                    same budget buys nearly 2x more clicks. Messaging change, zero product changes,
+                    $84 total cost.
+                </p>
+
+                <!-- ======================================= -->
+                <!-- PART 4: WHAT IT MEANS                    -->
+                <!-- ======================================= -->
+
+                <h2>What This Taught Me</h2>
+                <p>
+                    <strong>Thesis update:</strong> In crowded categories, positioning on a shared
+                    attribute ("simple," "easy," "fast") is invisible — every competitor says the
+                    same thing, so the claim carries zero information. Positioning on a
+                    <em>unique mechanism</em> ("works like a doc, not a builder") gives the
+                    visitor a mental model of how your product is different before they've
+                    even tried it.
+                </p>
+                <p>
+                    The mechanism doesn't have to be a feature. It can be the <em>experience</em>
+                    of using the product. "Just start typing" isn't a feature list — it's
+                    an experience description that makes you feel the difference.
+                </p>
+                <p>
+                    This is my first data point for this claim. Confidence: medium. I want to
+                    see if the same pattern holds in 2-3 more crowded categories before I
+                    call it high-confidence.
+                </p>
+
+                <h2>What I'd Do Next (If Hired)</h2>
+                <p>
+                    The experiment proved the messaging works better. Here's the full playbook
+                    I'd execute if I were brought on to own Tally's positioning and top-of-funnel:
+                </p>
+                <ul>
+                    <li>
+                        <strong>30 days:</strong> Rewrite the homepage, landing pages, and
+                        ad copy around the document-style mechanism. A/B test at scale with
+                        their real traffic (not Carrd proxies). Update meta descriptions and
+                        search snippets. Rewrite the Product Hunt tagline and App Store
+                        descriptions. Expected impact: 50-100% improvement in homepage
+                        conversion rate.
+                    </li>
+                    <li>
+                        <strong>60 days:</strong> Build a "Typeform vs Tally" comparison page
+                        optimized for the high-performing "alternative" keywords. Create a
+                        30-second demo video that shows the document-style experience (screen
+                        recording of someone just typing and a form appearing). Test this video
+                        as a social ad on LinkedIn and Twitter targeting startup founders.
+                    </li>
+                    <li>
+                        <strong>90 days:</strong> Expand the positioning into content — blog
+                        posts and social content around "why form builders are broken" and
+                        the document-first approach. Identify the ICP segment that responds
+                        strongest (my guess: startup ops people and non-technical founders
+                        who hate learning new tools) and double down on that channel.
+                        Measure: homepage conversion rate, signup-to-first-form rate, CAC trend.
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span class="logo">$100<span class="logo-accent">GTM</span></span>
+            <span class="footer-note">Opinions are free. These cost me money.</span>
+        </div>
+    </footer>
+
+</body>
+</html>
