@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTM Lab | Proof-of-Work Growth Strategy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="/" class="logo">GTM<span class="logo-accent">Lab</span></a>
+            <div class="nav-links">
+                <a href="#campaigns">Campaigns</a>
+                <a href="#thesis">Thesis</a>
+                <a href="#process">Process</a>
+                <a href="#contact" class="btn btn-sm">Work With Me</a>
+            </div>
+            <button class="mobile-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-badge">Proof-of-Work GTM Strategy</div>
+            <h1>I don't pitch ideas.<br><span class="text-accent">I ship proof.</span></h1>
+            <p class="hero-sub">
+                I find the most pressing GTM problem in your company, do the work,
+                and publish the results. Every campaign below is a real diagnosis
+                with real artifacts — not a deck, not a teardown, not a theory.
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num" id="campaign-count">0</span>
+                    <span class="stat-label">Campaigns Shipped</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" id="thesis-count">0</span>
+                    <span class="stat-label">Thesis Updates</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" id="experiment-count">0</span>
+                    <span class="stat-label">Experiments Run</span>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#campaigns" class="btn btn-primary">See the Work</a>
+                <a href="#contact" class="btn btn-outline">Hire the Engine</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Campaigns -->
+    <section id="campaigns" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proof-of-Work Campaigns</h2>
+                <p>Each campaign: one company, one pressing problem, one undeniable artifact.</p>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="positioning">Positioning</button>
+                <button class="filter-btn" data-filter="acquisition">Acquisition</button>
+                <button class="filter-btn" data-filter="activation">Activation</button>
+                <button class="filter-btn" data-filter="monetization">Monetization</button>
+                <button class="filter-btn" data-filter="retention">Retention</button>
+            </div>
+
+            <div class="campaigns-grid" id="campaigns-grid">
+                <!-- Campaigns loaded from data.js -->
+            </div>
+
+            <div class="empty-state" id="empty-campaigns">
+                <p>First campaign dropping soon. <a href="#contact">Want to be the subject?</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thesis -->
+    <section id="thesis" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Thesis</h2>
+                <p>Accumulated beliefs about GTM, updated with every campaign. Each claim has receipts.</p>
+            </div>
+
+            <div class="thesis-list" id="thesis-list">
+                <!-- Thesis entries loaded from data.js -->
+            </div>
+
+            <div class="empty-state" id="empty-thesis">
+                <p>Thesis entries appear as campaigns accumulate evidence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Engine</h2>
+                <p>How every campaign runs. Same system, every time.</p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-num">01</div>
+                    <h3>Target</h3>
+                    <p>Find a company at an inflection where GTM is the bottleneck. Recent raise + open growth roles + visible funnel leak = ideal target.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">02</div>
+                    <h3>Diagnose</h3>
+                    <p>Walk the chain: Positioning > Acquisition > Activation > Monetization > Retention. Find the earliest broken link that blocks their next milestone.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">03</div>
+                    <h3>Build</h3>
+                    <p>Do real work, not commentary. Rewrite positioning and test it. Rebuild onboarding as a prototype. Run a cold sequence and bring back data.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">04</div>
+                    <h3>Package</h3>
+                    <p>Lead with the insight, not the process. Make it skimmable, confident, and collaborative. It has to survive being forwarded to a cofounder.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">05</div>
+                    <h3>Launch</h3>
+                    <p>Grand in public (LinkedIn, tagged), surgical in private (DM to decision-maker). Public builds credibility; private starts the deal.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">06</div>
+                    <h3>Convert</h3>
+                    <p>Never ask for a job. Offer a 30-day growth sprint. Land the pilot, expand into the year. Sell proven judgment, not potential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section id="contact" class="section section-cta">
+        <div class="container">
+            <h2>Your GTM is the bottleneck.<br>I'll prove it — then fix it.</h2>
+            <p>If your company just raised, has a great product, and distribution is the gap —
+               I'll diagnose the most pressing problem and show you a slice of the fix. No pitch deck. Just proof.</p>
+            <div class="contact-options">
+                <a href="mailto:your@email.com" class="btn btn-primary btn-lg">your@email.com</a>
+                <a href="https://linkedin.com/in/yourprofile" class="btn btn-outline btn-lg" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/yourhandle" class="btn btn-outline btn-lg" target="_blank">Twitter/X</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span class="logo">GTM<span class="logo-accent">Lab</span></span>
+            <span class="footer-note">Proof of work, not proof of concept.</span>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
